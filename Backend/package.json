@@ -1,0 +1,24 @@
+{
+  "name": "Backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/01milim10/parewav2",
+  "author": "Aniket Sharma",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.3.4",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "xml-js": "^1.6.11"
+  }
+}
